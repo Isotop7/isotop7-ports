@@ -1,0 +1,27 @@
+# Description: libptytty is an offspring of rxvt-unicode that handles pty/tty/utmp/wtmp/lastlog handling
+# Url: http://software.schmorp.de/pkg/rxvt-unicode.html
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: libptytty
+
+name=rxvt-unicode
+version=9.29
+release=1
+source=(http://dist.schmorp.de/${name}/${name}-${version}.tar.bz2)
+
+build() {
+  cd $name-$version
+  ./configure 	--prefix=/usr \
+		--enable-everything \
+		--enable-256-color \
+		--enable-text-blink \
+		--enable-fading \
+		--enable-font-styles \
+		--enable-pixbuf \
+		--enable-iso14755 \
+		--enable-mousewheel \
+		--enable-perl \
+		--enable-unicode3 \
+		--enable-xft
+  make
+  make DESTDIR=$PKG install
+}
