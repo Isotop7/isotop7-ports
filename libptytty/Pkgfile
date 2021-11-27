@@ -1,6 +1,6 @@
-# Maintainer: Hendrik Röder, hendrik at hr94 dot de
 # Description: libptytty is an offspring of rxvt-unicode that handles pty/tty/utmp/wtmp/lastlog handling
 # Url: http://software.schmorp.de/pkg/libptytty.html
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on: 
 
 name=libptytty
