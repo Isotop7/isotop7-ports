@@ -11,6 +11,6 @@ source=(http://dist.schmorp.de/$name/$name-$version.tar.gz)
 build() {
             cd $name-$version
             cmake -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS=ON .
-            cmake --build $PKG
-            cmake --install $PKG
+            cmake --build .
+            DESTDIR=$PKG cmake --install .
 }
