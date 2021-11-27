@@ -8,9 +8,12 @@ d:libptytty
 d:autocutsel
 d:feh
 d:obapps
+f:91a38b691802f194ea08e5665adb0034:.httpup-repo.current
 f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
 f:7f6fc4c855f70c74510b9d58037e761d:rxvt-unicode/Pkgfile
 f:98c17451dc4a583da276d86b6c575e63:rxvt-unicode/.md5sum
+f:34dc351dbe9ade581827e5f2775a1ae3:.httpup-urlinfo
+f:bd7fb7bedb165fc92fa9ca9c44a6e875:pushPorts.sh
 f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
 f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
 f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
