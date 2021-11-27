@@ -8,9 +8,12 @@ d:libptytty
 d:autocutsel
 d:feh
 d:obapps
+f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
+f:7f6fc4c855f70c74510b9d58037e761d:rxvt-unicode/Pkgfile
+f:98c17451dc4a583da276d86b6c575e63:rxvt-unicode/.md5sum
 f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
-f:9d0af4fed3c8b3d68b53e7ee5cf40670:libseccomp/Pkgfile
+f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
 f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
 f:00e63ca0ede87b6e76ce1d946677582f:libptytty/.footprint
-f:04c6095bca27dd7707410dfa836a0eff:libptytty/Pkgfile
+f:2d9d5013c0f34d2bd18b7d0eeca138d3:libptytty/Pkgfile
 f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
