@@ -3,7 +3,16 @@ d:mtpaint
 d:obconf
 d:menumaker
 d:polybar
+d:libseccomp
 d:libptytty
 d:autocutsel
 d:feh
 d:obapps
+f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
+f:9d0af4fed3c8b3d68b53e7ee5cf40670:libseccomp/Pkgfile
+f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
+f:5096d3912a605a72b27805fa0ef9886d:libseccomp/libseccomp-2.5.3.tar.gz
+f:218936a322b1a4bc8c21d54382d1ef59:libseccomp/libseccomp#2.5.3-1.pkg.tar.gz
+f:f00c9a5554bafed830340dba92a84af3:libptytty/Pkgfile
+f:2a7f3f3c0d3ef71902da745dc7959529:libptytty/libptytty-2.0.tar.gz
+f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
