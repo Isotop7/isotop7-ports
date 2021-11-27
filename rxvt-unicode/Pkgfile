@@ -1,4 +1,4 @@
-# Description: libptytty is an offspring of rxvt-unicode that handles pty/tty/utmp/wtmp/lastlog handling
+# Description: rxvt-unicode is a fork of the well known terminal emulator rxvt.
 # Url: http://software.schmorp.de/pkg/rxvt-unicode.html
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on: libptytty
