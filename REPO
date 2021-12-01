@@ -5,6 +5,7 @@ d:menumaker
 d:polybar
 d:libseccomp
 d:libptytty
+d:ncdu
 d:autocutsel
 d:feh
 d:obapps
@@ -19,4 +20,7 @@ f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
 f:00e63ca0ede87b6e76ce1d946677582f:libptytty/.footprint
 f:061cab3e159add326ceb556fcf0682c9:libptytty/Pkgfile
 f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
+f:56f1bccf3534503d1ffaa7d0221b1df8:ncdu/.footprint
+f:f1a8ac847eb5a86683b0e40af8eb0c51:ncdu/Pkgfile
+f:939b0470c6d6aae193039d91f6985dc7:ncdu/.md5sum
 f:d13ba606e720a74989cf4b2e8692fb6f:isotop7.httpup

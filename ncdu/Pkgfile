@@ -1,0 +1,16 @@
+# Description: Ncdu is a disk usage analyzer with an ncurses interface.
+# Url: https://dev.yorhel.nl/ncdu
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: ncurses
+
+name=ncdu
+version=1.16
+release=1
+source=(https://dev.yorhel.nl/download/$name-$version.tar.gz)
+
+build() {
+            cd $name-$version
+            ./configure --prefix=/usr
+            make
+            make DESTDIR=$PKG install
+}
