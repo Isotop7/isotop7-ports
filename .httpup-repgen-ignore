@@ -5,9 +5,6 @@ README.md$
 \.tgz$
 \.tar\.bz2$
 \.zip$
-^CVS$
-^.*/CVS$
-/CVS/.*
-^CVS/.*
 .*~$
 pushPorts.sh
+.gitignore
