@@ -8,10 +8,11 @@ libptytty
 autocutsel
 feh
 obapps
+.httpup-repo.current
 rxvt-unicode/.footprint
 rxvt-unicode/Pkgfile
 rxvt-unicode/.md5sum
-pushPorts.sh
+.httpup-urlinfo
 libseccomp/.footprint
 libseccomp/Pkgfile
 libseccomp/.md5sum

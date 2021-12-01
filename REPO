@@ -8,7 +8,7 @@ d:libptytty
 d:autocutsel
 d:feh
 d:obapps
-f:91a38b691802f194ea08e5665adb0034:.httpup-repo.current
+f:cb2b064e74c3caa0eeff0d5da3414673:.httpup-repo.current
 f:a7c852f18145057ab2cce734b973fbd9:rxvt-unicode/.footprint
 f:0e88180b6da9f9e21748c739ee36d148:rxvt-unicode/Pkgfile
 f:98c17451dc4a583da276d86b6c575e63:rxvt-unicode/.md5sum
@@ -19,3 +19,4 @@ f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
 f:00e63ca0ede87b6e76ce1d946677582f:libptytty/.footprint
 f:2d9d5013c0f34d2bd18b7d0eeca138d3:libptytty/Pkgfile
 f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum
+f:d13ba606e720a74989cf4b2e8692fb6f:isotop7.httpup
