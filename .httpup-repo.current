@@ -5,6 +5,7 @@ menumaker
 polybar
 libseccomp
 libptytty
+ncdu
 autocutsel
 feh
 obapps
@@ -19,4 +20,7 @@ libseccomp/.md5sum
 libptytty/.footprint
 libptytty/Pkgfile
 libptytty/.md5sum
+ncdu/.footprint
+ncdu/Pkgfile
+ncdu/.md5sum
 isotop7.httpup
