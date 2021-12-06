@@ -1,0 +1,15 @@
+# Description: Pahole and other DWARF utils 
+# Url: https://git.kernel.org/pub/scm/devel/pahole/pahole.git
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on:
+
+name=dwarves
+version=1.22
+release=1
+source=(https://fedorapeople.org/~acme/${name}/${name}-${version}.tar.xz)
+
+build() {
+  cd $name-$version
+  cmake -D__LIB=lib -DCMAKE_INSTALL_PREFIX=/usr
+  make DESTDIR=$PKG install
+}

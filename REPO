@@ -1,4 +1,5 @@
 d:rxvt-unicode
+d:dwarves
 d:mtpaint
 d:obconf
 d:menumaker
@@ -13,6 +14,10 @@ f:cec75379e4b1d08326d66d291528f8c7:.httpup-repo.current
 f:7801e070081673c97acd8d0cf186935d:rxvt-unicode/.footprint
 f:7d3878018453c22e9096169888876daf:rxvt-unicode/Pkgfile
 f:5eb651d13a13e45bbaa79cfca17276f0:rxvt-unicode/.md5sum
+f:4ca186754757239f6f052bcf671e72d1:dwarves/.footprint
+f:4cb1a6e49cb822230e605e87d9b3691a:dwarves/Pkgfile
+f:b47e6ed7d7ba66da4708ce1b02002702:dwarves/.md5sum
+f:765edaa43c2e1fd329aa00c93c0286d7:dwarves/dwarves-1.22.tar.xz
 f:34dc351dbe9ade581827e5f2775a1ae3:.httpup-urlinfo
 f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
 f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
