@@ -5,6 +5,7 @@ d:obconf
 d:menumaker
 d:polybar
 d:libseccomp
+d:viewnior
 d:libptytty
 d:ncdu
 d:autocutsel
@@ -22,6 +23,9 @@ f:34dc351dbe9ade581827e5f2775a1ae3:.httpup-urlinfo
 f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
 f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
 f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
+f:0c41ee1f9d36bbf07c3ef480bc0050e2:viewnior/.footprint
+f:bbdfdea1b2f738549a5f5dbb757579a3:viewnior/Pkgfile
+f:7adabd01f9beca117cef7ddffb4ca4f7:viewnior/.md5sum
 f:00e63ca0ede87b6e76ce1d946677582f:libptytty/.footprint
 f:061cab3e159add326ceb556fcf0682c9:libptytty/Pkgfile
 f:5a3bdae773ec8b99ba80bca674f53a34:libptytty/.md5sum

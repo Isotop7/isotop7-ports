@@ -1,0 +1,17 @@
+# Description: Viewnior is a fast and simple image viewer for GNU/Linux.
+# Url: https://siyanpanayotov.com/project/viewnior
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: meson ninja exiv2 shared-mime-info desktop-file-utils
+
+name=viewnior
+version=1.8
+release=1
+source=(https://github.com/hellosiyan/${name}/archive/${name}-${version}.tar.gz)
+
+build() {
+  cd Viewnior-$name-$version
+  meson --prefix=/usr $PKG
+  cd $PKG
+  ninja
+  ninja install
+}
