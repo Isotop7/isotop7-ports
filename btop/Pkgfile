@@ -1,0 +1,15 @@
+# Description: A monitor of resources 
+# Url: https://github.com/aristocratos/btop
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: 
+
+name=btop
+version=1.1.2
+release=1
+source=(https://github.com/aristocratos/btop/archive/v$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  make
+  make PREFIX=/usr DESTDIR=$PKG install
+}

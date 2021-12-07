@@ -1,5 +1,6 @@
 d:rxvt-unicode
 d:dwarves
+d:btop
 d:alacritty
 d:mtpaint
 d:obconf
@@ -20,6 +21,9 @@ f:4ca186754757239f6f052bcf671e72d1:dwarves/.footprint
 f:4cb1a6e49cb822230e605e87d9b3691a:dwarves/Pkgfile
 f:b47e6ed7d7ba66da4708ce1b02002702:dwarves/.md5sum
 f:765edaa43c2e1fd329aa00c93c0286d7:dwarves/dwarves-1.22.tar.xz
+f:6a380b5fdb12a10ecdc3a3fc40adc0de:btop/.footprint
+f:e89c02428e7dac1452f563c24175aa6b:btop/Pkgfile
+f:df13d348c6eb4b5793c9b1cbb3b284e7:btop/.md5sum
 f:397c54dc2a2cdca1b36f4e374ab9e920:alacritty/.footprint
 f:16806a00501574e702a255cfcab4565d:alacritty/Pkgfile
 f:58bbdbf131a0b7453c8077fa204a9a85:alacritty/.md5sum
