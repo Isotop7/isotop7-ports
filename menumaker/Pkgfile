@@ -1,0 +1,16 @@
+# Description: MenuMaker is a menu generation utility for X window managers on *NIX systems. 
+# Url: http://menumaker.sourceforge.net/
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: python3
+
+name=menumaker
+version=0.99.14
+release=1
+source=(https://sourceforge.net/projects/$name/files/$name-$version.tar.gz)
+
+build() {
+            cd $name-$version
+            ./configure --prefix=/usr
+            make
+            DESTDIR=$PKG make install
+}

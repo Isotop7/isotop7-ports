@@ -1,6 +1,7 @@
 d:dwarves
 d:alacritty
 d:ncdu
+d:menumaker
 d:viewnior
 d:polybar
 d:libptytty
@@ -18,6 +19,8 @@ f:cec75379e4b1d08326d66d291528f8c7:.httpup-repo.current
 f:56f1bccf3534503d1ffaa7d0221b1df8:ncdu/.footprint
 f:939b0470c6d6aae193039d91f6985dc7:ncdu/.md5sum
 f:f1a8ac847eb5a86683b0e40af8eb0c51:ncdu/Pkgfile
+f:112340846bc21c8467d97b80eb5ebbfd:menumaker/.md5sum
+f:c64f61f3ec89deb8c852b854b45dbee4:menumaker/Pkgfile
 f:0c41ee1f9d36bbf07c3ef480bc0050e2:viewnior/.footprint
 f:7adabd01f9beca117cef7ddffb4ca4f7:viewnior/.md5sum
 f:bbdfdea1b2f738549a5f5dbb757579a3:viewnior/Pkgfile
