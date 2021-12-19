@@ -9,7 +9,8 @@ release=1
 source=(https://feh.finalrewind.org/$name-$version.tar.bz2)
 
 build() {
-            cd $name-$version
-            make
-            DESTDIR=$PKG make install
+	cd $name-$version
+        export PREFIX=/usr
+	make
+        DESTDIR=$PKG make install
 }
