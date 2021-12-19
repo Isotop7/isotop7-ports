@@ -1,0 +1,18 @@
+# Description: A fast and easy-to-use status bar
+# URL: https://polybar.github.io/
+# Depends on: cairo xorg-xcb-proto xorg-xcb-util-image xorg-xcb-util-wm xcb-util-xrm xorg-xcb-util-cursor cmake git python3 python3-packaging python3-sphinx pkg-config alsa-lib libmpdclient libnl jsoncpp curl
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+
+name=polybar
+version=3.5.7
+release=1
+
+source=(https://github.com/$name/$name/releases/download/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build && cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=release ../
+	make
+	DESTDIR=$PKG make install
+}
