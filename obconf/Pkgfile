@@ -1,0 +1,17 @@
+# Description: A GTK+ based configuration tool for the Openbox windowmanager
+# URL: https://openbox.org/wiki/ObConf
+# Depends on: gtk libglade startup-notification
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+
+name=obconf
+version=2.0.4
+release=1
+
+source=(http://openbox.org/dist/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	PKG_CONFIG_PATH=/usr/lib/pkgconfig ./configure --prefix=/usr
+	make
+	DESTDIR=$PKG make install
+}

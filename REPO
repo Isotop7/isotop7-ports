@@ -7,7 +7,9 @@ d:polybar
 d:libptytty
 d:libseccomp
 d:feh
+d:obconf
 d:btop
+d:tlp
 d:rxvt-unicode
 f:4ca186754757239f6f052bcf671e72d1:dwarves/.footprint
 f:b47e6ed7d7ba66da4708ce1b02002702:dwarves/.md5sum
@@ -35,9 +37,13 @@ f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
 f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
 f:a055a6ae54f6bb69ec0e7634005f37be:feh/.md5sum
 f:7085335533ea8149f70841cfd8e09dc8:feh/Pkgfile
+f:ce828621b89253c5d65e72d89671696e:obconf/.md5sum
+f:bcec0ab2379a4ae6aa2984479e195220:obconf/Pkgfile
 f:6a380b5fdb12a10ecdc3a3fc40adc0de:btop/.footprint
 f:df13d348c6eb4b5793c9b1cbb3b284e7:btop/.md5sum
 f:e89c02428e7dac1452f563c24175aa6b:btop/Pkgfile
+f:381e906f647364516fd7517227c1cdf4:tlp/.md5sum
+f:b6b39669b8d729abf7ce8a10137cc303:tlp/Pkgfile
 f:7801e070081673c97acd8d0cf186935d:rxvt-unicode/.footprint
 f:5eb651d13a13e45bbaa79cfca17276f0:rxvt-unicode/.md5sum
 f:7d3878018453c22e9096169888876daf:rxvt-unicode/Pkgfile

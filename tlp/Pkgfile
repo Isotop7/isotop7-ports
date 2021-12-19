@@ -1,0 +1,15 @@
+# Description: Linux Advanced Power Management
+# URL: https://linrunner.de/en/tlp/tlp.html
+# Depends on: 
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+
+name=tlp
+version=1.4.0
+release=1
+
+source=(https://github.com/linrunner/$name/archive/refs/tags/$version.tar.gz)
+
+build() {
+	cd ${name^^}-$version
+	DESTDIR=$PKG TLP_WITH_SYSTEMD=0 TLP_WITH_ELOGIND=0 TLP_SYSV=/etc/rc.d make install
+}
