@@ -1,0 +1,17 @@
+# Description: Feature-rich GTK+ theme switcher of the LXDE Desktop
+# URL: https://wiki.lxde.org/en/LXAppearance
+# Depends on: gtk dbus-glib intltool
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+
+name=lxappearance
+version=0.6.3
+release=1
+
+source=(https://downloads.sourceforge.net/lxde/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+	./configure --sysconfdir=/etc --prefix=/usr --enable-dbus
+	make
+	DESTDIR=$PKG make install
+}

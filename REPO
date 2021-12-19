@@ -1,4 +1,5 @@
 d:dwarves
+d:lxappearance
 d:alacritty
 d:ncdu
 d:menumaker
@@ -14,6 +15,9 @@ d:rxvt-unicode
 f:4ca186754757239f6f052bcf671e72d1:dwarves/.footprint
 f:b47e6ed7d7ba66da4708ce1b02002702:dwarves/.md5sum
 f:4cb1a6e49cb822230e605e87d9b3691a:dwarves/Pkgfile
+f:f10345313e2c12bad51c1b58bd46b454:lxappearance/lxappearance-0.6.3.tar.xz
+f:e167e0d95cd5fe82c779a7f11de34192:lxappearance/.md5sum
+f:b40fcf544fdb1aaa20ca7554bce459d1:lxappearance/Pkgfile
 f:397c54dc2a2cdca1b36f4e374ab9e920:alacritty/.footprint
 f:58bbdbf131a0b7453c8077fa204a9a85:alacritty/.md5sum
 f:16806a00501574e702a255cfcab4565d:alacritty/Pkgfile
@@ -36,7 +40,7 @@ f:a8b98b77c52a45c4327994fef8885767:libseccomp/.footprint
 f:aa1863c0f632d32fb59da40ed1eafd0b:libseccomp/.md5sum
 f:d025aa8f2b23dd076f7a45c11b176574:libseccomp/Pkgfile
 f:a055a6ae54f6bb69ec0e7634005f37be:feh/.md5sum
-f:7085335533ea8149f70841cfd8e09dc8:feh/Pkgfile
+f:7076b04dbc4d4510517be2481282e283:feh/Pkgfile
 f:ce828621b89253c5d65e72d89671696e:obconf/.md5sum
 f:bcec0ab2379a4ae6aa2984479e195220:obconf/Pkgfile
 f:6a380b5fdb12a10ecdc3a3fc40adc0de:btop/.footprint
