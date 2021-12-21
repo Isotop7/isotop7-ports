@@ -5,12 +5,14 @@
 
 name=geany
 version=1.38
-release=1
+release=2
 source=(https://download.geany.org/$name-$version.tar.gz)
 
 build() {
-            cd $name-$version
-            ./configure --prefix=/usr
-            make
-            DESTDIR=$PKG make install
+	cd $name-$version
+        ./configure --prefix=/usr --enable-plugins
+        make
+        DESTDIR=$PKG make install
+	# Remove documentation
+	rm -rf $PKG/usr/share/doc
 }
