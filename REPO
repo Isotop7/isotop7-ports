@@ -9,6 +9,7 @@ d:libptytty
 d:libseccomp
 d:feh
 d:obconf
+d:geany
 d:btop
 d:tlp
 d:rxvt-unicode
@@ -43,6 +44,8 @@ f:a055a6ae54f6bb69ec0e7634005f37be:feh/.md5sum
 f:7076b04dbc4d4510517be2481282e283:feh/Pkgfile
 f:ce828621b89253c5d65e72d89671696e:obconf/.md5sum
 f:bcec0ab2379a4ae6aa2984479e195220:obconf/Pkgfile
+f:bd76ff825ab3b3ba17b1875ba67feaf9:geany/.md5sum
+f:a9d145fb40ad3d879b0fa349caab8cec:geany/Pkgfile
 f:6a380b5fdb12a10ecdc3a3fc40adc0de:btop/.footprint
 f:df13d348c6eb4b5793c9b1cbb3b284e7:btop/.md5sum
 f:e89c02428e7dac1452f563c24175aa6b:btop/Pkgfile

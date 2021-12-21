@@ -1,0 +1,16 @@
+# Description: Geany is a small and lightweight Integrated Development Environment.
+# Url: https://www.geany.org/
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: gtk glib pango atk
+
+name=geany
+version=1.38
+release=1
+source=(https://download.geany.org/$name-$version.tar.gz)
+
+build() {
+            cd $name-$version
+            ./configure --prefix=/usr
+            make
+            DESTDIR=$PKG make install
+}
