@@ -1,11 +1,11 @@
 # Description: A graphical editor for Openbox application settings.
 # URL: https://github.com/gCurse/obapps3
-# Depends on: python3
+# Depends on: python3 python3-xlib
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 
 name=obapps3
 version=0.2.4
-release=1
+release=2
 source=(https://github.com/gCurse/$name/archive/refs/tags/v$version.zip)
 
 build() {
