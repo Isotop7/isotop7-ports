@@ -1,4 +1,5 @@
 d:dwarves
+d:mtpaint
 d:lxappearance
 d:alacritty
 d:ncdu
@@ -17,6 +18,8 @@ d:rxvt-unicode
 f:4ca186754757239f6f052bcf671e72d1:dwarves/.footprint
 f:b47e6ed7d7ba66da4708ce1b02002702:dwarves/.md5sum
 f:4cb1a6e49cb822230e605e87d9b3691a:dwarves/Pkgfile
+f:ae3893a9a7a61a927b138a954f769160:mtpaint/.md5sum
+f:05ef6c9dc707e9b0cb47ca2b7d46f2d5:mtpaint/Pkgfile
 f:f10345313e2c12bad51c1b58bd46b454:lxappearance/lxappearance-0.6.3.tar.xz
 f:e167e0d95cd5fe82c779a7f11de34192:lxappearance/.md5sum
 f:b40fcf544fdb1aaa20ca7554bce459d1:lxappearance/Pkgfile

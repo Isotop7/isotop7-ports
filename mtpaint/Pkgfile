@@ -1,0 +1,16 @@
+# Description: Mark Tyler's Painting Program
+# Url: http://mtpaint.sourceforge.net/
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
+# Depends on: gtk desktop-file-utils freetype giflib libjpeg-turbo libpng libwebp
+
+name=mtpaint
+version=3.50
+release=1
+source=(http://downloads.sourceforge.net/project/$name/$name/$version/$name-$version.tar.bz2)
+
+build() {
+            cd $name-$version
+            ./configure --prefix=/usr GIF jpeg notiff webp
+            make
+            make DESTDIR=$PKG install
+}
