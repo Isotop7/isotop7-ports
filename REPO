@@ -15,7 +15,6 @@ d:geany
 d:btop
 d:tlp
 d:rxvt-unicode
-f:5f028f6c8969a3b72e1de9c1874e7c63:dwarves/dwarves-1.23.tar.xz
 f:ffb2360df1b4627d913bd5eafd4d58fb:dwarves/.footprint
 f:e06f0cc7f2a64e57a6533eb19db0da47:dwarves/.md5sum
 f:8dbd32460f5a728fdb98b5f7ce571b9a:dwarves/Pkgfile
@@ -23,7 +22,6 @@ f:f3bc71cd175f17d32ee4b3811c5cd0a7:mtpaint/.footprint
 f:ae3893a9a7a61a927b138a954f769160:mtpaint/.md5sum
 f:60239ee9b96c2e020e9977f0ad66ee26:mtpaint/Pkgfile
 f:3b1ef8f811a5ab972001263f86df85de:lxappearance/.footprint
-f:f10345313e2c12bad51c1b58bd46b454:lxappearance/lxappearance-0.6.3.tar.xz
 f:e167e0d95cd5fe82c779a7f11de34192:lxappearance/.md5sum
 f:76162be97c0282e9ea7ecb538de62322:lxappearance/Pkgfile
 f:397c54dc2a2cdca1b36f4e374ab9e920:alacritty/.footprint
