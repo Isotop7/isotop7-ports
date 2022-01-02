@@ -1,10 +1,10 @@
 # Description: Pahole and other DWARF utils 
-# Url: https://git.kernel.org/pub/scm/devel/pahole/pahole.git
+# URL: https://git.kernel.org/pub/scm/devel/pahole/pahole.git
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on:
 
 name=dwarves
-version=1.22
+version=1.23
 release=1
 source=(https://fedorapeople.org/~acme/${name}/${name}-${version}.tar.xz)
 

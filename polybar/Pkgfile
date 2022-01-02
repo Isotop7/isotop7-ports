@@ -15,4 +15,5 @@ build() {
 	cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=release ../
 	make
 	DESTDIR=$PKG make install
+	rm -rf $PKG/usr/share/{doc,man}
 }

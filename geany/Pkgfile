@@ -1,5 +1,5 @@
 # Description: Geany is a small and lightweight Integrated Development Environment.
-# Url: https://www.geany.org/
+# URL: https://www.geany.org/
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on: gtk glib pango atk
 
@@ -14,5 +14,5 @@ build() {
         make
         DESTDIR=$PKG make install
 	# Remove documentation
-	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/{doc,locale}
 }

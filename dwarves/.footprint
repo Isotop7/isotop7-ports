@@ -1,53 +1,53 @@
-drwxr-xr-x	hendrik/users	usr/
-drwxr-xr-x	hendrik/users	usr/bin/
--rwxr-xr-x	hendrik/users	usr/bin/btfdiff
--rwxr-xr-x	hendrik/users	usr/bin/codiff
--rwxr-xr-x	hendrik/users	usr/bin/ctracer
--rwxr-xr-x	hendrik/users	usr/bin/dtagnames
--rwxr-xr-x	hendrik/users	usr/bin/fullcircle
--rwxr-xr-x	hendrik/users	usr/bin/ostra-cg
--rwxr-xr-x	hendrik/users	usr/bin/pahole
--rwxr-xr-x	hendrik/users	usr/bin/pdwtags
--rwxr-xr-x	hendrik/users	usr/bin/pfunct
--rwxr-xr-x	hendrik/users	usr/bin/pglobal
--rwxr-xr-x	hendrik/users	usr/bin/prefcnt
--rwxr-xr-x	hendrik/users	usr/bin/scncopy
--rwxr-xr-x	hendrik/users	usr/bin/syscse
-drwxr-xr-x	hendrik/users	usr/include/
-drwxr-xr-x	hendrik/users	usr/include/dwarves/
--rw-r--r--	hendrik/users	usr/include/dwarves/btf_encoder.h
--rw-r--r--	hendrik/users	usr/include/dwarves/config.h
--rw-r--r--	hendrik/users	usr/include/dwarves/ctf.h
--rw-r--r--	hendrik/users	usr/include/dwarves/dutil.h
--rw-r--r--	hendrik/users	usr/include/dwarves/dwarves.h
--rw-r--r--	hendrik/users	usr/include/dwarves/dwarves_emit.h
--rw-r--r--	hendrik/users	usr/include/dwarves/dwarves_reorganize.h
--rw-r--r--	hendrik/users	usr/include/dwarves/elf_symtab.h
--rw-r--r--	hendrik/users	usr/include/dwarves/elfcreator.h
--rw-r--r--	hendrik/users	usr/include/dwarves/gobuffer.h
--rw-r--r--	hendrik/users	usr/include/dwarves/hash.h
--rw-r--r--	hendrik/users	usr/include/dwarves/libctf.h
--rw-r--r--	hendrik/users	usr/include/dwarves/list.h
--rw-r--r--	hendrik/users	usr/include/dwarves/rbtree.h
-drwxr-xr-x	hendrik/users	usr/lib/
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves.so -> libdwarves.so.1
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves.so.1 -> libdwarves.so.1.0.0
--rwxr-xr-x	hendrik/users	usr/lib/libdwarves.so.1.0.0
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves_emit.so -> libdwarves_emit.so.1
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves_emit.so.1 -> libdwarves_emit.so.1.0.0
--rwxr-xr-x	hendrik/users	usr/lib/libdwarves_emit.so.1.0.0
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves_reorganize.so -> libdwarves_reorganize.so.1
-lrwxrwxrwx	hendrik/users	usr/lib/libdwarves_reorganize.so.1 -> libdwarves_reorganize.so.1.0.0
--rwxr-xr-x	hendrik/users	usr/lib/libdwarves_reorganize.so.1.0.0
-drwxr-xr-x	hendrik/users	usr/share/
-drwxr-xr-x	hendrik/users	usr/share/dwarves/
-drwxr-xr-x	hendrik/users	usr/share/dwarves/runtime/
--rw-r--r--	hendrik/users	usr/share/dwarves/runtime/Makefile
--rw-r--r--	hendrik/users	usr/share/dwarves/runtime/ctracer_relay.c
--rw-r--r--	hendrik/users	usr/share/dwarves/runtime/ctracer_relay.h
--rw-r--r--	hendrik/users	usr/share/dwarves/runtime/linux.blacklist.cu
-drwxr-xr-x	hendrik/users	usr/share/dwarves/runtime/python/
--rw-r--r--	hendrik/users	usr/share/dwarves/runtime/python/ostra.py
-drwxr-xr-x	hendrik/users	usr/share/man/
-drwxr-xr-x	hendrik/users	usr/share/man/man1/
--rw-r--r--	hendrik/users	usr/share/man/man1/pahole.1.gz
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/btfdiff
+-rwxr-xr-x	root/root	usr/bin/codiff
+-rwxr-xr-x	root/root	usr/bin/ctracer
+-rwxr-xr-x	root/root	usr/bin/dtagnames
+-rwxr-xr-x	root/root	usr/bin/fullcircle
+-rwxr-xr-x	root/root	usr/bin/ostra-cg
+-rwxr-xr-x	root/root	usr/bin/pahole
+-rwxr-xr-x	root/root	usr/bin/pdwtags
+-rwxr-xr-x	root/root	usr/bin/pfunct
+-rwxr-xr-x	root/root	usr/bin/pglobal
+-rwxr-xr-x	root/root	usr/bin/prefcnt
+-rwxr-xr-x	root/root	usr/bin/scncopy
+-rwxr-xr-x	root/root	usr/bin/syscse
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/dwarves/
+-rw-r--r--	root/root	usr/include/dwarves/btf_encoder.h
+-rw-r--r--	root/root	usr/include/dwarves/config.h
+-rw-r--r--	root/root	usr/include/dwarves/ctf.h
+-rw-r--r--	root/root	usr/include/dwarves/dutil.h
+-rw-r--r--	root/root	usr/include/dwarves/dwarves.h
+-rw-r--r--	root/root	usr/include/dwarves/dwarves_emit.h
+-rw-r--r--	root/root	usr/include/dwarves/dwarves_reorganize.h
+-rw-r--r--	root/root	usr/include/dwarves/elf_symtab.h
+-rw-r--r--	root/root	usr/include/dwarves/elfcreator.h
+-rw-r--r--	root/root	usr/include/dwarves/gobuffer.h
+-rw-r--r--	root/root	usr/include/dwarves/hash.h
+-rw-r--r--	root/root	usr/include/dwarves/libctf.h
+-rw-r--r--	root/root	usr/include/dwarves/list.h
+-rw-r--r--	root/root	usr/include/dwarves/rbtree.h
+drwxr-xr-x	root/root	usr/lib/
+lrwxrwxrwx	root/root	usr/lib/libdwarves.so -> libdwarves.so.1
+lrwxrwxrwx	root/root	usr/lib/libdwarves.so.1 -> libdwarves.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libdwarves.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libdwarves_emit.so -> libdwarves_emit.so.1
+lrwxrwxrwx	root/root	usr/lib/libdwarves_emit.so.1 -> libdwarves_emit.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libdwarves_emit.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libdwarves_reorganize.so -> libdwarves_reorganize.so.1
+lrwxrwxrwx	root/root	usr/lib/libdwarves_reorganize.so.1 -> libdwarves_reorganize.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libdwarves_reorganize.so.1.0.0
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/dwarves/
+drwxr-xr-x	root/root	usr/share/dwarves/runtime/
+-rw-r--r--	root/root	usr/share/dwarves/runtime/Makefile
+-rw-r--r--	root/root	usr/share/dwarves/runtime/ctracer_relay.c
+-rw-r--r--	root/root	usr/share/dwarves/runtime/ctracer_relay.h
+-rw-r--r--	root/root	usr/share/dwarves/runtime/linux.blacklist.cu
+drwxr-xr-x	root/root	usr/share/dwarves/runtime/python/
+-rw-r--r--	root/root	usr/share/dwarves/runtime/python/ostra.py
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/pahole.1.gz

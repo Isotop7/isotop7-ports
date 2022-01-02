@@ -1,11 +1,11 @@
 # Description: rxvt-unicode is a fork of the well known terminal emulator rxvt.
-# Url: http://software.schmorp.de/pkg/rxvt-unicode.html
+# URL: http://software.schmorp.de/pkg/rxvt-unicode.html
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on: libptytty xorg-libxft xorg-libxpm perl
 
 name=rxvt-unicode
 version=9.30
-release=1
+release=2
 source=(http://dist.schmorp.de/${name}/${name}-${version}.tar.bz2)
 
 build() {

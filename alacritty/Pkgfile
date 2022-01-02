@@ -2,11 +2,11 @@
 # URL: https://github.com/alacritty/alacritty
 # Depends on: fontconfig libxkbcommon rust util-linux xorg-libxcb
 # Optional: bash-completion zsh
-# Maintainer: hendrik at hr94 dot de
+# Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 
 name=alacritty
 version=0.9.0
-release=1
+release=2
 source=(https://github.com/alacritty/alacritty/archive/v$version/$name-$version.tar.gz)
 
 build() {

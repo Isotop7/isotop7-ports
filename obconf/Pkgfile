@@ -5,7 +5,7 @@
 
 name=obconf
 version=2.0.4
-release=1
+release=2
 
 source=(http://openbox.org/dist/$name/$name-$version.tar.gz)
 
@@ -14,4 +14,5 @@ build() {
 	PKG_CONFIG_PATH=/usr/lib/pkgconfig ./configure --prefix=/usr
 	make
 	DESTDIR=$PKG make install
+	rm -rf $PKG/usr/share/locale
 }

@@ -1,11 +1,11 @@
 # Description: feh is an X11 image viewer aimed mostly at console users. 
-# Url: https://feh.finalrewind.org/
+# URL: https://feh.finalrewind.org/
 # Maintainer: Hendrik Roeder, hendrik at hr94 dot de
 # Depends on: xorg-libx11 xorg-libxt imlib2 xorg-libxinerama libjpeg-turbo
 
 name=feh
 version=3.7.2
-release=1
+release=3
 source=(https://feh.finalrewind.org/$name-$version.tar.bz2)
 
 build() {
@@ -13,4 +13,5 @@ build() {
         export PREFIX=/usr
 	make
         DESTDIR=$PKG make install
+	rm -rf $PKG/usr/share/doc/feh
 }

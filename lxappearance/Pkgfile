@@ -5,7 +5,7 @@
 
 name=lxappearance
 version=0.6.3
-release=1
+release=2
 
 source=(https://downloads.sourceforge.net/lxde/$name-$version.tar.xz)
 
@@ -14,4 +14,5 @@ build() {
 	./configure --sysconfdir=/etc --prefix=/usr --enable-dbus
 	make
 	DESTDIR=$PKG make install
+	rm -rf $PKG/usr/share/{man,locale}
 }
